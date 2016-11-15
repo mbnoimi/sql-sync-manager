@@ -1,0 +1,74 @@
+[DEBREATE-0.7.11]
+<<CTRL>>
+Package: sync-accounts-manager
+Version: 0.9
+Section: database
+Maintainer: mbnoimi <mbnoimi@gmail.com>
+Priority: standard
+Architecture: amd64
+Depends: libmysqlclient20 (>=5.7.11), libstdc++6 (>=4.8.4), libgcc1 (>=1:3.0), libc6 (>=2.14)
+Description: SyncAccountsManager
+ SyncAccountsManager for Crystal Accounting system. It works for monitor sync accounts
+
+<</CTRL>>
+<<FILES>>
+1
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/sqldrivers/libqsqlmysql_orig.so* -> libqsqlmysql_orig.so -> /opt/sync-accounts-manager/sqldrivers
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/sqldrivers/libqsqlmysql.so* -> libqsqlmysql.so -> /opt/sync-accounts-manager/sqldrivers
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/sqldrivers/libqsqlite.so* -> libqsqlite.so -> /opt/sync-accounts-manager/sqldrivers
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/sqldrivers/libqsqlpsql.so* -> libqsqlpsql.so -> /opt/sync-accounts-manager/sqldrivers
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libicui18n.so.56.1* -> libicui18n.so.56.1 -> /opt/sync-accounts-manager
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libicudata.so.56.1* -> libicudata.so.56.1 -> /opt/sync-accounts-manager
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libQt5Sql.so* -> libQt5Sql.so -> /opt/sync-accounts-manager
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libQt5Core.so.5.7* -> libQt5Core.so.5.7 -> /opt/sync-accounts-manager
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libQt5Sql.so.5* -> libQt5Sql.so.5 -> /opt/sync-accounts-manager
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libicuuc.so.56* -> libicuuc.so.56 -> /opt/sync-accounts-manager
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libQt5Sql.so.5.7.0* -> libQt5Sql.so.5.7.0 -> /opt/sync-accounts-manager
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libicui18n.so.56* -> libicui18n.so.56 -> /opt/sync-accounts-manager
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libQt5Core.so.5.7.0* -> libQt5Core.so.5.7.0 -> /opt/sync-accounts-manager
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libicudata.so.56* -> libicudata.so.56 -> /opt/sync-accounts-manager
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libQt5Core.so* -> libQt5Core.so -> /opt/sync-accounts-manager
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/SyncAccountsManager* -> SyncAccountsManager -> /opt/sync-accounts-manager
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/SyncAccountsManager.sh* -> SyncAccountsManager.sh -> /opt/sync-accounts-manager
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libQt5Core.so.5* -> libQt5Core.so.5 -> /opt/sync-accounts-manager
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libicuuc.so.56.1* -> libicuuc.so.56.1 -> /opt/sync-accounts-manager
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libQt5Sql.so.5.7* -> libQt5Sql.so.5.7 -> /opt/sync-accounts-manager
+<</FILES>>
+<<SCRIPTS>>
+<<PREINST>>
+0
+<</PREINST>>
+<<POSTINST>>
+0
+<</POSTINST>>
+<<PRERM>>
+0
+<</PRERM>>
+<<POSTRM>>
+0
+<</POSTRM>>
+<</SCRIPTS>>
+<<CHANGELOG>>
+<<DEST>>DEFAULT<</DEST>>
+ () ; urgency=low
+
+  * 
+
+ --  <>  Mon, 14 Nov 2016 19:04:21 +0300
+
+
+<</CHANGELOG>>
+<<COPYRIGHT>>
+Copyright: <year> <copyright holder> <email>
+
+/usr/share/common-licenses/LGPL-3
+
+<</COPYRIGHT>>
+<<MENU>>
+0
+<</MENU>>
+<<BUILD>>
+1
+1
+1
+<</BUILD>>

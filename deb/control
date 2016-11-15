@@ -1,0 +1,10 @@
+Package: sync-accounts-manager
+Version: 0.11
+Section: database
+Maintainer: mbnoimi <mbnoimi@gmail.com>
+Priority: standard
+Architecture: amd64
+Depends: libmysqlclient20 (>=5.7.11), libstdc++6 (>=4.8.4), libgcc1 (>=1:3.0), libc6 (>=2.14)
+Description: SyncAccountsManager
+ SyncAccountsManager for Crystal Accounting system. It works for monitor sync accounts
+
