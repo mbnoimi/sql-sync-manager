@@ -19,6 +19,7 @@
 *.*#
 core
 bin
+deb/files
 !core/
 tags
 .DS_Store
@@ -72,4 +73,5 @@ Thumbs.db
 *.dll
 *.exe
 *.deb
+*.la
 
