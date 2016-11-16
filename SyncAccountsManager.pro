@@ -35,9 +35,11 @@ linux {
     UI_SOURCES_DIR = tmp-lin64
     OBJECTS_DIR = tmp-lin64
     RCC_DIR = tmp-lin64
-    QMAKE_POST_LINK = strip $${PWD}/$${DESTDIR}/$${TARGET}
-    QMAKE_RPATHDIR =
-    QMAKE_RPATHLINKDIR = # Possibly not needed
+#    QMAKE_POST_LINK = strip $${PWD}/$${DESTDIR}/$${TARGET}
+#    QMAKE_RPATHDIR =
+#    QMAKE_RPATHLINKDIR = # Possibly not needed
+    QMAKE_POST_LINK = $${PWD}/src/fix_executable.sh $${TARGET} $$(QTDIR) $${PWD}/$${DESTDIR} $${PWD}
+
 }
 
 DISTFILES += \
