@@ -14,8 +14,10 @@ cd $distro
 rm -fr $distro/*
 mkdir bin
 mkdir -p libs/plugins
-cp -fr $binpath $distro
-chmod +x  $distro/bin/$appname.sh
-mv -f $distro/bin/$appname.sh $distro
+cp -f $binpath/$appname $distro/bin/$appname
+chmod +x  $distro/bin/$appname
+cp -f $project_path/deb/$appname.sh $distro/$appname.sh
+chmod +x  $distro/$appname.sh
+cp -f $project_path/deb/qt.conf $distro/bin/qt.conf
 cp -fr $qt/lib/* $distro/libs
 cp -fr $qt/plugins $distro/libs

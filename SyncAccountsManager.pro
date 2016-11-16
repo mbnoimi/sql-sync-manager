@@ -38,10 +38,13 @@ linux {
 #    QMAKE_POST_LINK = strip $${PWD}/$${DESTDIR}/$${TARGET}
 #    QMAKE_RPATHDIR =
 #    QMAKE_RPATHLINKDIR = # Possibly not needed
-    QMAKE_POST_LINK = $${PWD}/src/fix_executable.sh $${TARGET} $$(QTDIR) $${PWD}/$${DESTDIR} $${PWD}
+    QMAKE_POST_LINK = $${PWD}/deb/fix_executable.sh $${TARGET} $$(QTDIR) $${PWD}/$${DESTDIR} $${PWD}
 
 }
 
 DISTFILES += \
-    src/fix_executable.sh
+    deb/SyncAccountsManager.sh \
+    deb/fix_executable.sh \
+    deb/qt.conf
+
 
