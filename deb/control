@@ -1,5 +1,5 @@
 Package: sync-accounts-manager
-Version: 0.9
+Version: 0.13
 Section: database
 Maintainer: mbnoimi <mbnoimi@gmail.com>
 Priority: standard

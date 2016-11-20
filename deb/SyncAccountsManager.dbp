@@ -1,7 +1,7 @@
 [DEBREATE-0.7.11]
 <<CTRL>>
 Package: sync-accounts-manager
-Version: 0.9
+Version: 0.13
 Section: database
 Maintainer: mbnoimi <mbnoimi@gmail.com>
 Priority: standard
@@ -13,26 +13,37 @@ Description: SyncAccountsManager
 <</CTRL>>
 <<FILES>>
 1
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/sqldrivers/libqsqlmysql_orig.so* -> libqsqlmysql_orig.so -> /opt/sync-accounts-manager/sqldrivers
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/sqldrivers/libqsqlmysql.so* -> libqsqlmysql.so -> /opt/sync-accounts-manager/sqldrivers
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/sqldrivers/libqsqlite.so* -> libqsqlite.so -> /opt/sync-accounts-manager/sqldrivers
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/sqldrivers/libqsqlpsql.so* -> libqsqlpsql.so -> /opt/sync-accounts-manager/sqldrivers
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libicui18n.so.56.1* -> libicui18n.so.56.1 -> /opt/sync-accounts-manager
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libicudata.so.56.1* -> libicudata.so.56.1 -> /opt/sync-accounts-manager
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libQt5Sql.so* -> libQt5Sql.so -> /opt/sync-accounts-manager
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libQt5Core.so.5.7* -> libQt5Core.so.5.7 -> /opt/sync-accounts-manager
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libQt5Sql.so.5* -> libQt5Sql.so.5 -> /opt/sync-accounts-manager
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libicuuc.so.56* -> libicuuc.so.56 -> /opt/sync-accounts-manager
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libQt5Sql.so.5.7.0* -> libQt5Sql.so.5.7.0 -> /opt/sync-accounts-manager
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libicui18n.so.56* -> libicui18n.so.56 -> /opt/sync-accounts-manager
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libQt5Core.so.5.7.0* -> libQt5Core.so.5.7.0 -> /opt/sync-accounts-manager
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libicudata.so.56* -> libicudata.so.56 -> /opt/sync-accounts-manager
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libQt5Core.so* -> libQt5Core.so -> /opt/sync-accounts-manager
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/SyncAccountsManager* -> SyncAccountsManager -> /opt/sync-accounts-manager
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/SyncAccountsManager.sh* -> SyncAccountsManager.sh -> /opt/sync-accounts-manager
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libQt5Core.so.5* -> libQt5Core.so.5 -> /opt/sync-accounts-manager
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libicuuc.so.56.1* -> libicuuc.so.56.1 -> /opt/sync-accounts-manager
-/home/mbnoimi/Desktop/HPC/SyncAccountsManager/bin/libQt5Sql.so.5.7* -> libQt5Sql.so.5.7 -> /opt/sync-accounts-manager
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/bin/qt.conf -> qt.conf -> /opt/SyncAccountsManager/bin
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/bin/SyncAccountsManager* -> SyncAccountsManager -> /opt/SyncAccountsManager/bin
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/plugins/sqldrivers/libqsqlmysql_orig.so* -> libqsqlmysql_orig.so -> /opt/SyncAccountsManager/libs/plugins/sqldrivers
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/plugins/sqldrivers/libqsqlmysql.so* -> libqsqlmysql.so -> /opt/SyncAccountsManager/libs/plugins/sqldrivers
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/plugins/sqldrivers/libqsqlite.so* -> libqsqlite.so -> /opt/SyncAccountsManager/libs/plugins/sqldrivers
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/plugins/sqldrivers/libqsqlpsql.so* -> libqsqlpsql.so -> /opt/SyncAccountsManager/libs/plugins/sqldrivers
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/plugins/platforms/libqminimalegl.so* -> libqminimalegl.so -> /opt/SyncAccountsManager/libs/plugins/platforms
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/plugins/platforms/libqxcb.so* -> libqxcb.so -> /opt/SyncAccountsManager/libs/plugins/platforms
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/plugins/platforms/libqoffscreen.so* -> libqoffscreen.so -> /opt/SyncAccountsManager/libs/plugins/platforms
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/plugins/platforms/libqeglfs.so* -> libqeglfs.so -> /opt/SyncAccountsManager/libs/plugins/platforms
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/plugins/platforms/libqlinuxfb.so* -> libqlinuxfb.so -> /opt/SyncAccountsManager/libs/plugins/platforms
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/plugins/platforms/libqminimal.so* -> libqminimal.so -> /opt/SyncAccountsManager/libs/plugins/platforms
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/libicui18n.so.56.1* -> libicui18n.so.56.1 -> /opt/SyncAccountsManager/libs
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/libqgsttools_p.so.1.0.0* -> libqgsttools_p.so.1.0.0 -> /opt/SyncAccountsManager/libs
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/libicudata.so.56.1* -> libicudata.so.56.1 -> /opt/SyncAccountsManager/libs
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/libQt5Sql.so* -> libQt5Sql.so -> /opt/SyncAccountsManager/libs
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/libQt5Core.so.5.7* -> libQt5Core.so.5.7 -> /opt/SyncAccountsManager/libs
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/libqgsttools_p.so.1.0* -> libqgsttools_p.so.1.0 -> /opt/SyncAccountsManager/libs
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/libQt5Sql.so.5* -> libQt5Sql.so.5 -> /opt/SyncAccountsManager/libs
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/libicuuc.so.56* -> libicuuc.so.56 -> /opt/SyncAccountsManager/libs
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/libQt5Sql.so.5.7.0* -> libQt5Sql.so.5.7.0 -> /opt/SyncAccountsManager/libs
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/libicui18n.so.56* -> libicui18n.so.56 -> /opt/SyncAccountsManager/libs
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/libQt5Core.so.5.7.0* -> libQt5Core.so.5.7.0 -> /opt/SyncAccountsManager/libs
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/libicudata.so.56* -> libicudata.so.56 -> /opt/SyncAccountsManager/libs
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/libQt5Core.so* -> libQt5Core.so -> /opt/SyncAccountsManager/libs
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/libqgsttools_p.so* -> libqgsttools_p.so -> /opt/SyncAccountsManager/libs
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/libQt5Core.so.5* -> libQt5Core.so.5 -> /opt/SyncAccountsManager/libs
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/libqgsttools_p.so.1* -> libqgsttools_p.so.1 -> /opt/SyncAccountsManager/libs
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/libicuuc.so.56.1* -> libicuuc.so.56.1 -> /opt/SyncAccountsManager/libs
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/libs/libQt5Sql.so.5.7* -> libQt5Sql.so.5.7 -> /opt/SyncAccountsManager/libs
+/home/mbnoimi/Desktop/HPC/SyncAccountsManager/deb/files/SyncAccountsManager.sh* -> SyncAccountsManager.sh -> /opt/SyncAccountsManager
 <</FILES>>
 <<SCRIPTS>>
 <<PREINST>>
