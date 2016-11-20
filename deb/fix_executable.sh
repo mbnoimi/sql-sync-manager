@@ -10,8 +10,9 @@ strip $binpath/$appname
 chrpath -d $binpath/$appname
 
 #### Create files tree ####
+rm -fr $project_path/deb/files
+mkdir -p $project_path/deb/files
 cd $distro
-rm -fr $distro/*
 mkdir bin
 mkdir -p libs/plugins
 cp -f $binpath/$appname $distro/bin/$appname
