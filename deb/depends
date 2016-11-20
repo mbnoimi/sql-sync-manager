@@ -1,1 +1,0 @@
-sudo apt-get -y install libqt5sql5-mysql libstdc++6 libqt5widgets5 libqt5sql5 libqt5gui5 libqt5core5a
